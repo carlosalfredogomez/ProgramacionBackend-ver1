@@ -1,4 +1,3 @@
-//función que impide la repetición de ID
 const generateId = () => {
     const timestamp = Date.now();
     const random = Math.floor(Math.random() * 1000);

@@ -30,7 +30,7 @@ socket.on('newProduct', (product) => {
 });
 
 
-//creo esta función para que me configure correctamente lo que paso al input, con las comas consigo separar las rutas
+
 const getThumbnails = (thumbnails) => {
   const thumbnailsArray = thumbnails ? thumbnails.split(',') : [];
   const thumbnailsArrayTrimmed = thumbnailsArray.map(url => url.trim());

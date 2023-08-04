@@ -1,13 +1,11 @@
 const { Server } = require('socket.io')
-/* const ProductManager = require('../dao/Fs/ProductManager'); */
 const ProductManagerMongo = require('../dao/ProductManagerMongo')
 const MessageManagerMongo = require('../dao/MessageManagerMongo')
 const moment = require('moment');
 
 const init = (httpServer) => {
   const io = new Server(httpServer)
-  /*   const productManager = new ProductManager('./src/products.json', io) */
-
+  
   const productManagerMongo = new ProductManagerMongo(io)
   const messageManagerMongo = new MessageManagerMongo(io)
 

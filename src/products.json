@@ -1,8 +1,8 @@
 [
   {
-    "id": "1688524484740399",
+    "id": "1688524484740",
     "title": "Camisa 1",
-    "description": "Una camiseta de algodón",
+    "description": "Una camiseta",
     "code": "CAM-001",
     "price": 15.99,
     "status": true,
@@ -11,9 +11,9 @@
     "thumbnails": []
   },
   {
-    "id": "1688524492334647",
+    "id": "1688524492334",
     "title": "Camisa 3",
-    "description": "Una camiseta de algodón",
+    "description": "Una camiseta 3",
     "code": "CAM-003",
     "price": 15.99,
     "status": true,
@@ -22,9 +22,9 @@
     "thumbnails": []
   },
   {
-    "id": "1689218730090758",
+    "id": "1689218730090",
     "title": "Camisa 5",
-    "description": "Camisa número 5",
+    "description": "Camisa 5",
     "code": "CAM-005",
     "price": 123.33,
     "status": false,
