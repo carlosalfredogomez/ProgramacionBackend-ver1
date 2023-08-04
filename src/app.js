@@ -11,7 +11,7 @@ const cartsRouter = require('./routes/cartsRouter');
 const viewsRouterFn = require('./routes/viewsRouter');
 
 const app = express();
-const MONGODB_CONNECT = `mongodb+srv://carlosalfredogomez:MongoAtlas423@ecommerce.eygngrd.mongodb.net/ecommerce?retryWrites=true&w=majority`
+const MONGODB_CONNECT = `mongodb+srv://iramgutzglez:PolaeoVvneDNjYWL@cluster0.pzs2exz.mongodb.net/43375-clase15?retryWrites=true&w=majority`
 mongoose.connect(MONGODB_CONNECT)
   .then(() => console.log('Conexión exitosa a la base de datos'))
   .catch((error) => {
