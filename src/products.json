@@ -1,0 +1,35 @@
+[
+  {
+    "id": "1688524484740399",
+    "title": "Camisa 1",
+    "description": "Una camiseta de algodón",
+    "code": "CAM-001",
+    "price": 15.99,
+    "status": true,
+    "stock": 12,
+    "category": "ropa",
+    "thumbnails": []
+  },
+  {
+    "id": "1688524492334647",
+    "title": "Camisa 3",
+    "description": "Una camiseta de algodón",
+    "code": "CAM-003",
+    "price": 15.99,
+    "status": true,
+    "stock": 12,
+    "category": "ropa",
+    "thumbnails": []
+  },
+  {
+    "id": "1689218730090758",
+    "title": "Camisa 5",
+    "description": "Camisa número 5",
+    "code": "CAM-005",
+    "price": 123.33,
+    "status": false,
+    "stock": 2,
+    "category": "Ropa",
+    "thumbnails": []
+  }
+]
